@@ -1,0 +1,54 @@
+/* Gaya untuk keseluruhan layar */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #d3d3d3; /* Abu-abu terang */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Kontainer utama */
+.container {
+  text-align: center;
+  width: 100%;
+}
+
+/* Teks di tengah layar */
+.center-text {
+  font-size: 24px;
+  color: blue;
+  font-weight: bold; /* Teks tebal */
+  margin-bottom: 20px;
+}
+
+/* Kontainer untuk kotak-kotak */
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin: 0 auto;
+}
+
+/* Gaya untuk kotak */
+.box {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+/* Gaya kotak kiri */
+.box-left {
+  background-color: crimson; /* Warna bebas */
+}
+
+/* Gaya kotak kanan */
+.box-right {
+  background-color: teal; /* Warna bebas */
+}
